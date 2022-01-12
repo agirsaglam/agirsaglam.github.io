@@ -16,6 +16,8 @@
     -->
     <base href="/">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
     <meta charset="UTF-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
     <meta name="description" content="A new Flutter project.">
@@ -35,7 +37,7 @@
      application. For more information, see:
      https://developers.google.com/web/fundamentals/primers/service-workers -->
 <script>
-    var serviceWorkerVersion = '2434595233';
+    var serviceWorkerVersion = '3175105315';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -106,14 +108,5 @@
             media="(prefers-color-scheme: dark)">
     <img class="center" aria-hidden="true" src="splash/img/light-1x.png"/>
 </picture>
-<script>
- document.addEventListener('touchmove', function(event) {
-    event = event.originalEvent || event;
-    if(event.scale > 1) {
-      event.preventDefault();
-    }
-  }, false);
-
-</script>
 </body>
 </html>
