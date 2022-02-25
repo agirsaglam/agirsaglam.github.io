@@ -4,15 +4,20 @@
     "ok": "Ok"
   },
   "formats": {
-    "variable_1": "today",
-    "variable_2": "yesterday",
+    "variable_1": "Today",
+    "variable_2": "Yesterday",
     "variable_3": "days ago"
   },
   "features": {
     "authentication": {
+      "status": {
+        "name_1": "Authenticated",
+        "name_2": "Unauthenticated",
+        "name_3": "Unverified"
+      },
       "main": {
         "title_1": "LIGHTWEIGHT",
-        "title_2": "Calculator App",
+        "title_2": "Calculator",
         "button_1": "Join Us",
         "button_2": "Log In"
       },
@@ -30,9 +35,9 @@
         "second_description_2": "Join us",
         "second_description_3": ".",
         "error_title_1": "Login Failed",
-        "error_content_1": "Check your info and Check your internet connection then try again!",
+        "error_content_1": "Check your info and internet connection!",
         "error_title_2": "Password Reset Failed",
-        "error_content_2": "Check your info and Check your internet connection then try again!",
+        "error_content_2": "Check your info and internet connection!",
         "success_title_2": "Password Reset Successful",
         "success_content_2": "Password reset link has been sent to your email address."
       },
@@ -49,7 +54,7 @@
         "second_description_2": "Log in",
         "second_description_3": ".",
         "error_title_1": "Account Creation Failed",
-        "error_content_1": "Check your info and Check your internet connection then try again!"
+        "error_content_1": "Check your info and internet connection!"
       },
       "unverified": {
         "title_1": "LIGHTWEIGHT",
@@ -58,22 +63,43 @@
         "button_2": "Log Out",
         "description_1": "Please verify your account for",
         "description_2": ". Make sure you check your spam box!",
+        "contact_us_1": "Can not verify?",
+        "contact_us_2": "Contact us",
         "error_title_1": "Send Again Failed",
-        "error_content_1": "Check your internet connection then try again!"
+        "error_content_1": "Check your internet connection!"
       }
     },
     "tabs": {
+      "log": {
+        "title": "Log",
+        "lift_log": {
+          "title": "Lifts",
+          "dialog_1": {
+            "title": "Are you sure you want to delete lift?"
+          },
+          "message_1": "No lift found"
+        },
+        "measurement_log": {
+          "title": "Measurements",
+          "dialog_1": {
+            "title": "Are you sure you want to delete measurement?"
+          },
+          "message_1": "No measurement found"
+        }
+      },
       "calculators": {
         "title": "Calculators",
-        "header_1": "Lightweight Level",
+        "header_1": "Lightweight\nLevel",
         "header_2": "1RM",
-        "header_3": "BMI",
-        "header_4": "Body Fat",
-        "header_5": "Calorie",
+        "header_3": "Barbell Load",
+        "header_4": "Ideal Weight",
+        "header_5": "Body Fat",
+        "header_6": "Calorie",
+        "header_7": "Sleep",
         "bmi_calculator": {
-          "title": "Bmi Calculator",
+          "title": "Ideal Weight Calculator",
           "dialog_1": {
-            "subtitle_1": "\tYour bmi and ideal weight range are calculated with the height and body weight you enter.",
+            "subtitle_1": "Your bmi and ideal weight range are calculated with the height and body weight you enter.",
             "subtitle_2": "Body Mass Index Formula",
             "subtitle_3": "is used in this calculation."
           },
@@ -94,7 +120,7 @@
         "body_fat_calculator": {
           "title": "Body Fat Calculator",
           "dialog_1": {
-            "subtitle_1": "\tYour body fat percentage and body category are calculated with the gender, height, neck size, waist size and hip size you enter.",
+            "subtitle_1": "Your body fat percentage and body category are calculated with the gender, height, neck size, waist size and hip size you enter.",
             "subtitle_2": "US Navy Method",
             "subtitle_3": "is used for this calculation."
           },
@@ -111,7 +137,7 @@
         "calorie_calculator": {
           "title": "Calorie Calculator",
           "dialog_1": {
-            "subtitle_1": "\tYour BMR and calorie needs are calculated with the fat percentage and body weight you enter.",
+            "subtitle_1": "Your BMR and calorie needs are calculated with the fat percentage and body weight you enter.",
             "subtitle_2": "Katch–McArdle Formula",
             "subtitle_3": "is used for this calculation."
           },
@@ -119,13 +145,21 @@
           "result_2": "Your calorie need is"
         },
         "rep_calculator": {
-          "title": "Repetition Calculator",
+          "title": "1RM",
           "dialog_1": {
-            "subtitle_1": "\tYour 1 to 10 repetitions calculated with the weight you and repetition you enter.",
+            "subtitle_1": "Your 1 to 10 repetitions calculated with the weight you and repetition you enter.",
             "subtitle_2": "Wattan Formula",
             "subtitle_3": "is used in this calculation."
           },
           "button_1": "See Your Level"
+        },
+        "barbell_load_calculator": {
+          "title_1": "Barbell Load",
+          "button_1": "Load",
+          "button_2": "Change Equipment",
+          "dialog_1": {
+            "subtitle_1": "It shows how you can load the weight you entered with your equipment. You can click on select equipment to select your equipment. You can also browse alternative loadings with the arrow buttons and the variant selection window."
+          }
         }
       },
       "leaderboard": {
@@ -136,30 +170,33 @@
         "list_item": {
           "button_1": "Profile",
           "button_2": "Video",
-          "button_3": "Lift",
-          "button_4": "Reports"
+          "button_3": "Card",
+          "button_4": "Report",
+          "button_5": "Reports",
+          "button_6": "Edit"
         }
       },
       "profile": {
         "title": "Profile",
         "button_1": "Edit Profile",
-        "subtitle_1": "Admin Panel",
+        "subtitle_1_1": "Manage Subscription",
+        "subtitle_1_2": "Be Pro",
+        "subtitle_2": "Mod Panel",
+        "subtitle_3": "Log Out",
         "edit_profile": {
           "title": "Edit Profile",
           "button_1": "Cancel",
           "button_2": "Done",
           "error_title_1": "Name Update Failed",
           "error_title_2": "Profile Picture Update Failed",
-          "error_content_1": "Check your internet connection then try again!",
-          "error_content_2": "Check your internet connection then try again! Do not forget that, picture size must be less than 1mb."
+          "error_content_1": "Check your internet connection!",
+          "error_content_2": "Check your internet connection! Do not forget that, picture size must be less than 1mb."
         },
         "settings": {
           "title": "Settings",
           "section_title_1": "General",
-          "section_title_2": "Account",
           "tile_title_1": "Language",
           "tile_title_2": "Appearance",
-          "tile_title_3": "Log Out",
           "appearance": {
             "title": "Appearance",
             "subtitle": "Change the in-app theme to light or dark, or use the phone's default settings."
@@ -170,34 +207,74 @@
           }
         }
       },
-      "attempt_selector": {
-        "title": "Attempt Selector",
-        "button_1": "Start",
-        "warmup": {
-          "button_1": "Start Set",
-          "button_2": "Skip Set",
-          "button_3": "Finish Set",
-          "button_4": "Finish Rest",
-          "title_1": "Warm-up ",
-          "title_2": "",
-          "subtitle_1": "tekrar",
-          "notification_title": "Rest is Over",
-          "notification_body_1": "Warm-up set ",
-          "notification_body_2": " is waiting for you",
-          "notification_body_3": "kg and",
-          "notification_body_4": "rep"
+      "attempt_selection": {
+        "title_1": "Attempt Selection",
+        "subtitle_1": "Warm-up",
+        "subtitle_2": "Attempt",
+        "dialog_1": {
+          "title": "Are you sure you want to leave?",
+          "content": "If you leave now, your attempt will finish and you will lose your progress."
         },
-        "attempt": {
-          "button_1": "Start Set",
-          "button_2": "Skip Set",
-          "button_3": "Finish Set",
-          "button_4": "Finish Rest",
-          "title_1": "Attempt ",
-          "title_2": "",
-          "notification_title": "Rest is Over",
-          "notification_body_1": "Attempt ",
-          "notification_body_2": " is waiting for you",
-          "notification_body_3": "kg"
+        "paywall": {
+          "title": "Lightweight Calculator Pro",
+          "content_1": "Hit your desired max with our smart calculation!",
+          "content_2": "If you are on the mood, hit even bigger max!",
+          "content_3": "Lift your attempts when you are fully ready!",
+          "content_4": "Do not worry about the plate math, we will handle!",
+          "content_5": "Manage 3 attempts and 5 warm-up sets!",
+          "contact_us_1": "Do you have question?",
+          "contact_us_2": "Contact us",
+          "button_1": "Lightweight Pro - Annual"
+        },
+        "tutorial": {
+          "title_1": "Tutorial",
+          "button_1": "Got It",
+          "content_1": "Enter your desired max and equipment availability. We will keep your equipments for future PR attempts, you can change them anytime.",
+          "content_2": "Start warming up with suggested weights. We will prepare you up to your max.",
+          "content_3": "Follow rest intervals when you are done with your set. Cutting rest intervals short or letting loose might affect your performance.",
+          "content_4": " Getting close to the max, we will ask you how you feel on your attempts. Those answers will get you the optimum total."
+        },
+        "form": {
+          "title_1": "Enter Info",
+          "button_1": "Start"
+        },
+        "set": {
+          "button_1": "Back",
+          "preparation": {
+            "title_1": "Preparation",
+            "subtitle_1": "Next",
+            "button_1": "Finish Rest",
+            "button_2": "Start Set",
+            "button_3": "Skip Set"
+          },
+          "execution": {
+            "title_1": "Execution",
+            "button_1": "Finish Set"
+          },
+          "sheet_1": {
+            "title_1": "How did\nthis set feel?",
+            "button_1": "Select"
+          },
+          "notification_1": {
+            "title": "Rest is Over",
+            "body_1": "Warm-up set ",
+            "body_2": " is waiting for you ",
+            "body_3": " kg and ",
+            "body_4": " rep"
+          },
+          "notification_2": {
+            "title": "Rest is Over",
+            "body_1": "Attempt set ",
+            "body_2": " is waiting for you ",
+            "body_3": "kg"
+          }
+        },
+        "result": {
+          "title_1": "Result",
+          "subtitle_1": "Sets",
+          "button_1": "Log",
+          "article_1": "Congratulations! You hit your goal in this attempt selection. Now it's time to work on improving your lift even further, we will remind you when it's time to get PR!",
+          "article_2": "You did not reach your goal in this attempt selection, but you still did a good job. Now it's time to work on increasing your Lightweight leve, we will remind you when it's time to get PR!"
         }
       }
     },
@@ -209,12 +286,12 @@
         "title_3": "Update Lift",
         "title_4": "Lift Preview",
         "dialog_1": {
-          "subtitle_1": "\tWith the weight you entered and the repetition you selected, your one rep maximum is calculated first.",
+          "subtitle_1": "With the weight you entered and the repetition you selected, your one rep maximum is calculated first.",
           "subtitle_2": "Wathan Formula",
           "subtitle_3": "is used in this calculation. Then your wilks score is calculated with your body weight and your one rep max.",
           "subtitle_4": "Wilks Coefficient",
           "subtitle_5": "is used in this calculation.",
-          "subtitle_6": "\n\tIn order to be on the leaderboard, you must enter the video link of your lift. By entering the video link, you are agreeing to be on the leaderboard. If the video in the link is deleted or changed, you will be removed from the leaderboard. For validate your lift, the video must comply with these rules:\n\n\t1-When redirected to the video, the video of the upload must be entered directly.\n\t2-The video and the entered lift must match.\n\t3-Only the uploaded video must be found in the video.\n\t4-The video must be permanent on the platform where it is uploaded.\n\t5-The weight used must be countable.\n\t6-The athlete performing the lift should not harm himself during the lift due to reasons such as poor form.\n\nIf one or more of these rules are not met, the lift will be rejected."
+          "subtitle_6": "\nIn order to be on the leaderboard, you must enter the video link of your lift. By entering the video link, you are agreeing to be on the leaderboard. If the video in the link is deleted or changed, you will be removed from the leaderboard. For validate your lift, the video must comply with these rules:\n\n1-When redirected to the video, the video of the upload must be entered directly.\n2-The video and the entered lift must match.\n3-Only the uploaded video must be found in the video.\n4-The video must be permanent on the platform where it is uploaded.\n5-The weight used must be countable.\n6-The athlete performing the lift should not harm himself during the lift due to reasons such as poor form.\n\nIf one or more of these rules are not met, the lift will be rejected."
         },
         "dialog_2": {
           "title": "Verified",
@@ -238,42 +315,15 @@
         "result_1": "Your one rep max is",
         "result_2": "Your ratio of lift to bw is",
         "result_3": "Your score is",
-        "result_4": "Fetch Ranking",
-        "result_5_1": "You are better then ",
-        "result_5_2": "people",
-        "result_6_1": "You are worse then ",
-        "result_6_2": "people",
-        "result_7_1": "Your are stronger then ",
-        "result_7_2": "",
-        "button_1": "Calculate Ranking",
         "button_2": "Log",
         "button_3": "Update",
         "button_4": "Lift Card",
-        "button_5": "Report",
-        "button_6": "Edit",
         "dialog_7": {
-          "title": "Calculate Failed",
-          "content": "Check your internet connection then try again!"
-        },
-        "dialog_8": {
           "title": "Failed",
-          "content": "Check your internet connection then try again!"
+          "content": "Check your internet connection!"
         },
         "switch_1": "Valid",
         "switch_2": "Rejected"
-      },
-      "log": {
-        "title": "Log",
-        "history": {
-          "title": "History",
-          "dialog_1": {
-            "title": "Are you sure you want to delete lift?"
-          },
-          "message_1": "No lift found"
-        },
-        "chart": {
-          "title": "Chart"
-        }
       },
       "lift_card": {
         "title_1": "Next Level",
@@ -296,12 +346,18 @@
       },
       "analysis": {
         "title_1": "Your Best Lifts",
-        "title_2": "You and People"
+        "title_2": "You and People",
+        "dialog_1": {
+          "content_1": "The bars show the Lightweight score out of 100 for that exercise. The grids that appear when clicked show the Lightweight levels.\nHeavy Lightweight Levels:"
+        },
+        "dialog_2": {
+          "content_1": "The bars show the difference from the average for that exercise. It shows how many people are when clicked."
+        }
       },
       "remote_analysis_item": {
-        "title_1": "Yout",
-        "title_2": "Other Athletes",
-        "title_3": "Difference",
+        "title_1": "You: ",
+        "title_2": "Average: ",
+        "title_3": "Difference: ",
         "tag_1": "point",
         "subtitle_1_1": "You are stronger than ",
         "subtitle_1_2": "",
@@ -324,23 +380,15 @@
         "name_3": "Log",
         "name_4": "Calculators"
       },
-      "plate": {
-        "name_1": "1.25 kg",
-        "name_2": "2.5 kg",
-        "name_3": "5 kg",
-        "name_4": "10 kg",
-        "name_5": "15 kg",
-        "name_6": "20 kg",
-        "name_7": "25 kg"
-      },
       "bar": {
-        "name_1": "Olympic - 20 kg",
-        "name_2": "Half Olympic - 10 kg"
+        "name_1": "Olympic",
+        "name_2": "Half Olympic"
       },
       "felt": {
-        "name_1": "Felt bad",
-        "name_2": "Normal",
-        "name_3": "Felt good"
+        "name_1": "Failed",
+        "name_2": "Felt bad",
+        "name_3": "Normal",
+        "name_4": "Felt good"
       },
       "appearance": {
         "name_1": "System",
@@ -374,24 +422,11 @@
       "lifts_sort": {
         "name_1": "Date",
         "name_2": "Lightweight Score",
-        "name_3": "One Rep Max",
-        "name_4": "Weight",
-        "name_5": "Repetition",
-        "name_6": "Body Weight"
+        "name_3": "One Rep Max"
       },
       "sort_direction": {
         "name_1": "Ascending",
         "name_2": "Descending"
-      },
-      "lifts_exercise_filter": {
-        "name_1": "All",
-        "name_2": "Squat",
-        "name_3": "Bench Press",
-        "name_4": "Deadlift",
-        "name_5": "Overhead Press",
-        "name_6": "Barbell Row",
-        "name_7": "Weighted Dips",
-        "name_8": "Weighted Pull Up"
       },
       "lifts_compare": {
         "name_1": "Lightweight Score",
@@ -433,28 +468,103 @@
         "name_3": "Deadlift Star",
         "name_4": "Row Machine",
         "name_5": "Calisthenics Star",
-        "description_1": "No one can beat you when it comes to squatting! You're the star of this exercise.",
-        "description_2": "You're a pressing machine! You should participate in competitions where using hydraulics is not a cheat.",
+        "description_1": "No one can beat you when it comes to squatting! You are the star of this exercise.",
+        "description_2": "You are a pressing machine! You should participate in competitions where using hydraulics is not a cheat.",
         "description_3": "You are a master at lifting weights from the ground! I hope the plates in the gym are enough for you.",
-        "description_4": "You're a pulling machine. Your back muscles are like a stone.",
-        "description_5": "You're the king of the streets! Gym, park, it doesn't matter. When you hold onto the iron, all eyes are on you."
+        "description_4": "You are a pulling machine. Your back muscles are like a stone.",
+        "description_5": "You are the king of the streets! Gym, park, it doesn't matter. When you hold onto the iron, all eyes are on you."
+      },
+      "contact_cause": {
+        "subject_1": "Verification",
+        "subject_2": "Maintenance",
+        "subject_3": "Update",
+        "subject_4": "Lightweight Pro",
+        "subject_5": "Lightweight Pro",
+        "body_1": "I can not verify my account because can not get verification link. Can you help me to fix this?",
+        "body_2": "I can not start the application because it is been on the maintenance screen for a long time. Can you help me to fix this?",
+        "body_3": "I can not start the application because the update screen does not go away even though I am on the current version. Can you help me to fix this?",
+        "body_4": "I have a question about Lightweight Pro. Question is that:\n",
+        "body_5": "I having an error about Lightweight Pro. Can you help me to fix this? Error code is:"
+      },
+      "purchase_error_code": {
+        "message_1": "An unknown error occurred",
+        "message_2": "Purchase cancelled",
+        "message_3": "An error occurred with the app store",
+        "message_4": "Device or user not allowed to purchase",
+        "message_5": "One or more of the supplied arguments is invalid",
+        "message_6": "Unable to purchase product",
+        "message_7": "This product is already active for the user",
+        "message_8": "There is already another active subscriber using the same receipt",
+        "message_9": "Receipt not valid",
+        "message_10": "Receipt lost",
+        "message_11": "Error processing request",
+        "message_12": "There was an identity issue",
+        "message_13": "Invalid response received from backend",
+        "message_14": "There is already another active subscriber using the same receipt",
+        "message_15": "Application user id is not valid",
+        "message_16": "Operation already in progress",
+        "message_17": "An unknown backend error occurred",
+        "message_18": "Apple Subscription Key is invalid or does not exist",
+        "message_19": "User is not available for this action",
+        "message_20": "Application does not have sufficient permissions to make a purchase",
+        "message_21": "Payment pending",
+        "message_22": "One or more of the sent attributes could not be saved",
+        "message_23": "Attempted to log out with anonymous user",
+        "message_24": "There is a problem with your configuration",
+        "message_25": "There was a problem with the operation"
+      },
+      "body_part": {
+        "name_1": "Neck",
+        "name_2": "Shoulder",
+        "name_3": "Chest",
+        "name_4": "Arm",
+        "name_5": "Waist",
+        "name_6": "Hip",
+        "name_7": "Leg",
+        "name_8": "Kalf"
+      }
+    },
+    "init": {
+      "maintenance": {
+        "title_1": "LIGHTWEIGHT",
+        "title_2": "Under Maintenance",
+        "description_1": "We are currently under maintenance. We are working on making it better. Do not worry, it will not take long, come back soon.",
+        "contact_us_1": "Long time here?",
+        "contact_us_2": "Contact us"
+      },
+      "force_update": {
+        "title_1": "LIGHTWEIGHT",
+        "title_2": "New Version",
+        "description_1": "There is a newer version available for download. Please update the app to continue.",
+        "contact_us_1": "Already updated?",
+        "contact_us_2": "Contact us",
+        "button_1": "Update"
+      },
+      "contact": {
+        "contact_user_info": {
+          "body_1": "\nMy account name",
+          "body_2": "\nMy e-mail address that defined for my account",
+          "body_3": "\nMy authentication status",
+          "body_4": "\nMy operating system"
+        }
       }
     },
     "widgets": {
       "others": {
-        "plates_input": {
-          "label_text": "Plates in the Gym"
+        "barbell_load_widget": {
+          "error_1": "Your available equipment are not enough for this loading",
+          "sheet_1": {
+            "title_1": "Variants",
+            "suffix_1": "Variant"
+          }
         },
-        "bar_input": {
-          "label_text": "Bar in the Gym"
+        "date_input": {
+          "title": "Date",
+          "button_1": "Select",
+          "button_2": "Change"
         }
       },
       "sheets": {
-        "felt": {
-          "title": "How was this set?",
-          "subtitle": "Failed",
-          "button_1": "Continue"
-        },
         "lifts_sort": {
           "title": "Sort By"
         },
@@ -476,15 +586,6 @@
         }
       },
       "dialogs": {
-        "force_update": {
-          "title": "New Version Available",
-          "content": "There is a newer version available for download. Please update the app.",
-          "button_1": "Update"
-        },
-        "maintenance": {
-          "title": "Maintenance Time",
-          "content": "We are in maintenance right now. Come back later. Do not worry, it will not take long."
-        },
         "explanation": {
           "title": "Explanation",
           "button_1": "Got It"
@@ -494,10 +595,15 @@
           "button_2": "Yes"
         },
         "ok": {
-          "button_1": "Ok"
+          "button_1": "Close"
+        },
+        "error": {
+          "title": "Bir hata oluştu",
+          "button_1": "Close",
+          "button_2": "Contact Us"
         }
       },
-      "text_form_fields": {
+      "form_fields": {
         "email_input": {
           "label_text": "Email",
           "error_text": "Invalid email"
@@ -522,17 +628,37 @@
           "label_text": "Body Weight",
           "error_text": "Invalid body weight: must be between 30 and 250 kgs"
         },
-        "hip_input": {
-          "label_text": "Hip",
-          "error_text": "Invalid hip: must be between 50 and 200 cms"
-        },
         "neck_input": {
           "label_text": "Neck",
           "error_text": "Invalid neck: must be between 15 and 70 cms"
         },
+        "shoulder_input": {
+          "label_text": "Shoulder",
+          "error_text": "Invalid shoulder: must be between 50 and 200 cms"
+        },
+        "chest_input": {
+          "label_text": "Chest",
+          "error_text": "Invalid chest: must be between 50 and 200 cms"
+        },
+        "arm_input": {
+          "label_text": "Arm",
+          "error_text": "Invalid arm: must be between 15 and 70 cms"
+        },
         "waist_input": {
           "label_text": "Waist",
           "error_text": "Invalid waist: must be between 40 and 200 cms"
+        },
+        "hip_input": {
+          "label_text": "Hip",
+          "error_text": "Invalid hip: must be between 50 and 200 cms"
+        },
+        "leg_input": {
+          "label_text": "Leg",
+          "error_text": "Invalid leg: must be between 20 and 150 cms"
+        },
+        "kalf_input": {
+          "label_text": "Kalf",
+          "error_text": "Invalid kalf: must be between 15 and 70 cms"
         },
         "body_fat_input": {
           "label_text": "Body Fat",
@@ -543,20 +669,46 @@
         },
         "weight_input": {
           "label_text_1": "Weight",
-          "error_text_1": "Invalid weigt: must be between 0 and 500",
+          "error_text_1": "Invalid weight: must be between 0 and 500",
           "label_text_2": "Extra Weight",
           "error_text_2": "Invalid extra weight: must be between 0 and 500"
         },
-        "rep_input_2": {
+        "rep2_input": {
           "label_text": "Repetition",
           "error_text": "Invalid repetition: must be between 1 and 10"
         },
         "validation_link_input": {
-          "label_text": "Video Link (Enter the leaderboard)"
+          "label_text": "Video Link (Enter to leaderboard)"
         },
         "desired_max_input": {
           "label_text": "Desired Max",
           "error_text": "Invalid desired max: must be between 0 and 500"
+        },
+        "exercise_input": {
+          "label_text": "Choose Exercise",
+          "error_text": "You must choose exercise"
+        },
+        "activity_level_input": {
+          "label_text": "Choose Activity Level",
+          "error_text": "You must choose activity level"
+        }
+      },
+      "smart_inputs": {
+        "gender_input": {
+          "title": "Gender",
+          "button": "Change",
+          "error": "You must choose gender"
+        },
+        "bar_input": {
+          "title": "Available Barbell",
+          "button": "Change",
+          "error": "You must choose bar"
+        },
+        "plates_input": {
+          "title": "Available Plates",
+          "subtitle": "Pair",
+          "button": "Change",
+          "error": "You must choose plates"
         }
       }
     }
