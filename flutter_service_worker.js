@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "bd34d937f1ab29988e390449b234b100",
+  "version.json": "8788e9b2368dbf3fcb413e91cdf6ad2c",
 "splash/img/light-2x.png": "7deb6922fe461821f9dee74c9b3c625b",
 "splash/img/dark-4x.png": "4ce9012853da5deee8e9f8d564c0b88b",
 "splash/img/light-3x.png": "6381baba9ab696d74ce50ba9f3cf6949",
@@ -13,17 +13,17 @@ const RESOURCES = {
 "splash/img/dark-1x.png": "ef9798d90e58abb4fed937c4ace894dd",
 "splash/img/light-1x.png": "ef9798d90e58abb4fed937c4ace894dd",
 "splash/style.css": "b61734b1c9829a5c3c2053eb18c7ae7b",
-"index.html": "d271078ccc6e4f32e3fdcb610cc56324",
-"/": "d271078ccc6e4f32e3fdcb610cc56324",
-"main.dart.js": "55f6583a10dbaaac892e1a19e06d36f6",
+"index.html": "9cd3955548732ce848000e9a11acbc10",
+"/": "9cd3955548732ce848000e9a11acbc10",
+"main.dart.js": "6aa69a483071e90fd4639ce83ca050a6",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "10fc72655124681742fa47aadfdf8628",
-"assets/AssetManifest.json": "9acb382ab4fcfa6f0e1592ed6f393f9d",
-"assets/NOTICES": "5797f3a81a6e81036b8a4b75824c5d15",
+"assets/AssetManifest.json": "cab9a96c3eaf059c0fec39bd171a9d02",
+"assets/NOTICES": "539d88662abddc615eb030f1793f6a1f",
 "assets/FontManifest.json": "abb59e62508a8a6cf2ac32d0a1d3ce6a",
 "assets/packages/lw_components/assets/icons/LwIcons.ttf": "ecf2963b00969415d1e429aa8fc84908",
 "assets/packages/lw_components/assets/fonts/UnitedSansReg-Medium.otf": "001fbf0f03dcd8de5cf2fa710d1c66fa",
@@ -35,7 +35,7 @@ const RESOURCES = {
 "assets/packages/easy_localization/i18n/en.json": "5bd908341879a431441c8208ae30e4fd",
 "assets/packages/easy_localization/i18n/en-US.json": "5bd908341879a431441c8208ae30e4fd",
 "assets/packages/easy_localization/i18n/ar.json": "acc0a8eebb2fcee312764600f7cc41ec",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
 "assets/assets/images/contents/attemptTutorialLight2.png": "d4325c3c311e7ac59c86e6a470d4ea15",
 "assets/assets/images/contents/attemptTutorialLight3.png": "99152ac174d1d99a75be9a186c021e8c",
 "assets/assets/images/contents/attemptPaywallLight4.png": "4329cfe7d9806924f769f46dcc9434d6",
@@ -57,7 +57,6 @@ const RESOURCES = {
 "assets/assets/images/logos/logoText.png": "a88a00ff2e182fe8302c5b809eef54e0",
 "assets/assets/images/logos/storeApple.jpg": "f9a74a617665248c1f1d1e9399963681",
 "assets/assets/images/logos/instagram.png": "9950268aa1c96de39bfbf51f58d0e0b8",
-"assets/assets/images/logos/turkishFlag.png": "65dc03991770d443cc8de5b8bc484e05",
 "assets/assets/images/logos/storeGoogle.jpg": "51fc79ccf30e90c058371f8385e7c2c8",
 "assets/assets/images/logos/logo.png": "d572e00100942e406c794bc3ba725bf1",
 "assets/assets/images/logos/logo2.png": "98700724837bfa9c1f181df8c89faa97",
@@ -81,12 +80,12 @@ const RESOURCES = {
 "assets/assets/images/equipment/plateTwentyFive.png": "32218dd85aff52dfdfcd45574cb955c2",
 "assets/assets/images/equipment/plateTwoAndHalf.png": "e5428dbc0467dfe5b65f9e7c91ca281b",
 "assets/assets/images/equipment/barOlympic.png": "5ac74147f16846ae3d70ba002ab6dd30",
-"assets/assets/lang/tr-TR.json": "6cddcaecc846030f7f0e4f5062ee7622",
-"assets/assets/lang/en-US.json": "817d9f4cc4c336300690e6755d193bb3",
-"canvaskit/canvaskit.js": "62b9906717d7215a6ff4cc24efbd1b5c",
-"canvaskit/profiling/canvaskit.js": "3783918f48ef691e230156c251169480",
-"canvaskit/profiling/canvaskit.wasm": "6d1b0fc1ec88c3110db88caa3393c580",
-"canvaskit/canvaskit.wasm": "b179ba02b7a9f61ebc108f82c5a1ecdb"
+"assets/assets/lang/tr-TR.json": "a86b2934240a6b12e677ad9a47eff8b9",
+"assets/assets/lang/en-US.json": "78a91a16cd33e47d8ffa875b61bc77ab",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
 };
 
 // The application shell files that are downloaded before a service worker can

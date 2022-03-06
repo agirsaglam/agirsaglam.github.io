@@ -10,11 +10,6 @@
   },
   "features": {
     "authentication": {
-      "status": {
-        "name_1": "Authenticated",
-        "name_2": "Unauthenticated",
-        "name_3": "Unverified"
-      },
       "main": {
         "title_1": "LIGHTWEIGHT",
         "title_2": "Calculator",
@@ -72,19 +67,13 @@
     "tabs": {
       "log": {
         "title": "Log",
-        "lift_log": {
-          "title": "Lifts",
-          "dialog_1": {
-            "title": "Are you sure you want to delete lift?"
-          },
-          "message_1": "No lift found"
+        "log_chart": {
+          "title": "Chart"
         },
-        "measurement_log": {
-          "title": "Measurements",
-          "dialog_1": {
-            "title": "Are you sure you want to delete measurement?"
-          },
-          "message_1": "No measurement found"
+        "sheet_1": {
+          "title_1": "Select Data",
+          "button_1": "Select Lifts",
+          "button_2": "Select Measurements"
         }
       },
       "calculators": {
@@ -96,6 +85,7 @@
         "header_5": "Body Fat",
         "header_6": "Calorie",
         "header_7": "Sleep",
+        "tag_1": "SOON",
         "bmi_calculator": {
           "title": "Ideal Weight Calculator",
           "dialog_1": {
@@ -145,7 +135,7 @@
           "result_2": "Your calorie need is"
         },
         "rep_calculator": {
-          "title": "1RM",
+          "title": "1RM Calculator",
           "dialog_1": {
             "subtitle_1": "Your 1 to 10 repetitions calculated with the weight you and repetition you enter.",
             "subtitle_2": "Wattan Formula",
@@ -154,7 +144,7 @@
           "button_1": "See Your Level"
         },
         "barbell_load_calculator": {
-          "title_1": "Barbell Load",
+          "title_1": "Barbell Load Calculator",
           "button_1": "Load",
           "button_2": "Change Equipment",
           "dialog_1": {
@@ -180,9 +170,10 @@
         "title": "Profile",
         "button_1": "Edit Profile",
         "subtitle_1_1": "Manage Subscription",
-        "subtitle_1_2": "Be Pro",
+        "subtitle_1_2": "Become Pro",
         "subtitle_2": "Mod Panel",
         "subtitle_3": "Log Out",
+        "subtitle_4": "Contact Us",
         "edit_profile": {
           "title": "Edit Profile",
           "button_1": "Cancel",
@@ -216,7 +207,7 @@
           "content": "If you leave now, your attempt will finish and you will lose your progress."
         },
         "paywall": {
-          "title": "Lightweight Calculator Pro",
+          "title": "Attempt Selection",
           "content_1": "Hit your desired max with our smart calculation!",
           "content_2": "If you are on the mood, hit even bigger max!",
           "content_3": "Lift your attempts when you are fully ready!",
@@ -227,7 +218,7 @@
           "button_1": "Lightweight Pro - Annual"
         },
         "tutorial": {
-          "title_1": "Tutorial",
+          "title_1": "Attempt Selection",
           "button_1": "Got It",
           "content_1": "Enter your desired max and equipment availability. We will keep your equipments for future PR attempts, you can change them anytime.",
           "content_2": "Start warming up with suggested weights. We will prepare you up to your max.",
@@ -235,20 +226,20 @@
           "content_4": " Getting close to the max, we will ask you how you feel on your attempts. Those answers will get you the optimum total."
         },
         "form": {
-          "title_1": "Enter Info",
+          "title_1": "Attempt Selection",
           "button_1": "Start"
         },
         "set": {
           "button_1": "Back",
           "preparation": {
-            "title_1": "Preparation",
+            "title_1": "Attempt Selection",
             "subtitle_1": "Next",
             "button_1": "Finish Rest",
             "button_2": "Start Set",
             "button_3": "Skip Set"
           },
           "execution": {
-            "title_1": "Execution",
+            "title_1": "Attempt Selection",
             "button_1": "Finish Set"
           },
           "sheet_1": {
@@ -270,7 +261,7 @@
           }
         },
         "result": {
-          "title_1": "Result",
+          "title_1": "Attempt Selection",
           "subtitle_1": "Sets",
           "button_1": "Log",
           "article_1": "Congratulations! You hit your goal in this attempt selection. Now it's time to work on improving your lift even further, we will remind you when it's time to get PR!",
@@ -280,6 +271,13 @@
     },
     "lifts": {
       "button_1": "Add Lift",
+      "lift_log": {
+        "title": "Lifts",
+        "dialog_1": {
+          "title": "Are you sure you want to delete lift?"
+        },
+        "message_1": "No lift found"
+      },
       "lift": {
         "title_1": "Lightweight Level Calculator",
         "title_2": "Add Lift",
@@ -298,7 +296,7 @@
           "content": "Your lift has been verified by our team."
         },
         "dialog_3": {
-          "title": "Unverified",
+          "title": "In Review",
           "content": "If you have added lift video and it is public, it will be checked by our team as soon as possible."
         },
         "dialog_4": {
@@ -332,9 +330,7 @@
         "content_2": "You can watch from this link"
       },
       "lightweight_card": {
-        "content_1": "Here is my Lightweight Card. Let's race!",
-        "warning_1": "You must have at least three lifts in different exercises to get the Lightweight Card.",
-        "warning_2": "You must have at least three valid lifts in three different exercises to get the Golden Lightweight Card."
+        "content_1": "Here is my Lightweight Card. Let's race!"
       },
       "lift_list_item": {
         "label_1": "Lightweight Score",
@@ -352,7 +348,10 @@
         },
         "dialog_2": {
           "content_1": "The bars show the difference from the average for that exercise. It shows how many people are when clicked."
-        }
+        },
+        "warning_1": "You must have at least three lifts in different exercises to get the Lightweight Card.",
+        "warning_2": "You must have at least three valid lifts in three different exercises to get the Golden Lightweight Card.",
+        "warning_3": "To see body information, you must enter your information from profile and the required measurements from my measurements."
       },
       "remote_analysis_item": {
         "title_1": "You: ",
@@ -363,6 +362,25 @@
         "subtitle_1_2": "",
         "subtitle_2_1": "You are weaker than ",
         "subtitle_2_2": ""
+      }
+    },
+    "measurements": {
+      "measurement_log": {
+        "title": "Measurements",
+        "dialog_1": {
+          "title": "Are you sure you want to delete measurement?"
+        },
+        "message_1": "No measurement found",
+        "button_1": "Add Measurement"
+      },
+      "measurement": {
+        "title_1": "Add Measurement"
+      }
+    },
+    "info": {
+      "info_input": {
+        "title_1": "Gender",
+        "title_2": "Height"
       }
     }
   },
@@ -513,18 +531,36 @@
         "message_24": "There is a problem with your configuration",
         "message_25": "There was a problem with the operation"
       },
-      "body_part": {
-        "name_1": "Neck",
-        "name_2": "Shoulder",
-        "name_3": "Chest",
-        "name_4": "Arm",
-        "name_5": "Waist",
-        "name_6": "Hip",
-        "name_7": "Leg",
-        "name_8": "Kalf"
+      "measurement_type": {
+        "name_1": "Body Weight",
+        "name_2": "Neck",
+        "name_3": "Shoulder",
+        "name_4": "Chest",
+        "name_5": "Arm",
+        "name_6": "Waist",
+        "name_7": "Hip",
+        "name_8": "Leg",
+        "name_9": "Kalf"
       }
     },
     "init": {
+      "purchases": {
+        "pro_paywall": {
+          "title_1": "Lightweight Pro",
+          "title_2": "",
+          "subtitle_1_1": "+50k",
+          "subtitle_1_2": "downloads",
+          "subtitle_2": "4.8/5",
+          "content_1": "Attempt selection",
+          "content_2": "Barbell load calculator",
+          "content_3": "Measurement and fat ratio tracking",
+          "content_4": "Advanced graphics",
+          "content_5": "Continuously evolving PRO features!",
+          "button_1": "Lightweight Pro - Annual",
+          "contact_us_1": "Do you have question?",
+          "contact_us_2": "Contact us"
+        }
+      },
       "maintenance": {
         "title_1": "LIGHTWEIGHT",
         "title_2": "Under Maintenance",
@@ -542,10 +578,9 @@
       },
       "contact": {
         "contact_user_info": {
-          "body_1": "\nMy account name",
-          "body_2": "\nMy e-mail address that defined for my account",
-          "body_3": "\nMy authentication status",
-          "body_4": "\nMy operating system"
+          "content_1": "\n\n\n^^^^ PLEASE WRITE ABOVE THIS LINE ^^^^",
+          "content_2": "name",
+          "content_3": "e-mail"
         }
       }
     },
@@ -568,14 +603,14 @@
         "lifts_sort": {
           "title": "Sort By"
         },
-        "lifts_exercise_filter": {
-          "title": "Filter"
-        },
-        "lifts_compare": {
-          "title": "Compare"
-        },
         "select_exercises": {
-          "title": "Select Exercises"
+          "title": "Select Lifts"
+        },
+        "select_measurement_type": {
+          "title": "Select Measurements",
+          "subtitle_1": "Body Fat",
+          "subtitle_2": "FFMI",
+          "subtitle_3": "Lightweight Score"
         },
         "report": {
           "title": "Report",
@@ -675,7 +710,8 @@
         },
         "rep2_input": {
           "label_text": "Repetition",
-          "error_text": "Invalid repetition: must be between 1 and 10"
+          "error_text": "Invalid repetition: must be between 1 and 10",
+          "suffix_text": "rep"
         },
         "validation_link_input": {
           "label_text": "Video Link (Enter to leaderboard)"
@@ -691,6 +727,14 @@
         "activity_level_input": {
           "label_text": "Choose Activity Level",
           "error_text": "You must choose activity level"
+        },
+        "measurement_type_input": {
+          "label_text": "Choose Measurement Type",
+          "error_text": "You must choose measurement type"
+        },
+        "gender2_input": {
+          "label_text": "Choose Gender",
+          "error_text": "You must choose gender"
         }
       },
       "smart_inputs": {
