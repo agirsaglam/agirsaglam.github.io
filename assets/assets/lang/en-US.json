@@ -149,9 +149,12 @@
           "dialog_1": {
             "content_1": "Working Set Calculator calculate the combination of sets for you at any difficulty you want."
           },
-          "subtitle_1": "Set",
-          "subtitle_2": "Total Working Volume",
-          "subtitle_3": "Recomended Rest Period"
+          "subtitle_1": "Ascending Weight",
+          "subtitle_2": "Set",
+          "subtitle_3": "Total Working Volume",
+          "subtitle_4": "Recomended Rest Period",
+          "prefix_1": "units",
+          "prefix_2": "min"
         },
         "sleep_calculator": {
           "title_1": "Sleep Calculator",

@@ -149,9 +149,12 @@
           "dialog_1": {
             "content_1": "Çalışma Seti Hesaplayıcı, istediğin zorlukta set kombinasyonunu senin için hesaplar."
           },
-          "subtitle_1": "Set",
-          "subtitle_2": "Toplam Çalışma Hacmi",
-          "subtitle_3": "Tavsiye Edilen Dinlenme Süresi"
+          "subtitle_1": "Artan Ağırlık",
+          "subtitle_2": "Set",
+          "subtitle_3": "Toplam Çalışma Hacmi",
+          "subtitle_4": "Tavsiye Edilen Dinlenme Süresi",
+          "prefix_1": "birim",
+          "prefix_2": "dk"
         },
         "sleep_calculator": {
           "title_1": "Uyku Hesaplayıcı",
