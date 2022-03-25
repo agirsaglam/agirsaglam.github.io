@@ -9,59 +9,117 @@
     "variable_3": "days ago"
   },
   "features": {
+    "moderator": {
+      "moderator_panel": {
+        "title_1": "Moderator Panel",
+        "button_1": "User Editing",
+        "button_2": "Waiting Lifts",
+        "button_3": "Reset Pool",
+        "button_4": "Test"
+      },
+      "user_editing": {
+        "title_1": "User Editing",
+        "button_1": "Query User",
+        "button_2": "Edit User"
+      },
+      "waiting_lifts": {
+        "title_1": "Waiting Lifts",
+        "content_1": "Lift not found"
+      }
+    },
     "authentication": {
-      "main": {
-        "title_1": "LIGHTWEIGHT",
-        "title_2": "Calculator",
-        "button_1": "Join Us",
-        "button_2": "Log In"
+      "extensions": {
+        "authentication_error_extension": {
+          "error_1": {
+            "title": "An Unknown Error Occurred",
+            "message": "Please try again later or contact support for help!"
+          },
+          "error_2": {
+            "title": "User Blocked",
+            "message": "This user has been blocked. Please contact our support for help!"
+          },
+          "error_3": {
+            "title": "User Not Found",
+            "message": "No user found with this email address. Please create an account first!"
+          },
+          "error_4": {
+            "title": "Weak Password",
+            "message": "Your password is too weak. Please enter a stronger password!"
+          },
+          "error_5": {
+            "title": "Email Address Already In Use",
+            "message": "An account is already assigned to this e-mail address. Please use another e-mail address or contact support for help!"
+          },
+          "error_6": {
+            "title": "Invalid Email Address",
+            "message": "Your e-mail address is invalid or badly formatted. Please make sure you have entered your e-mail address correctly!"
+          },
+          "error_7": {
+            "title": "Operation Not Allowed",
+            "message": "Operation not allowed. Please contact support for help!"
+          },
+          "error_8": {
+            "title": "Wrong Password",
+            "message": "Password and e-mail addresses do not match. Make sure your password is correct!"
+          }
+        }
       },
-      "login": {
-        "title_1": "LIGHTWEIGHT",
-        "title_2": "Account",
-        "button_1": "Log In",
-        "button_2": "Did you forget your password?",
-        "description_1": "By logging in, you agree to the",
-        "description_2": "Privacy Policy",
-        "description_3": "and",
-        "description_4": "Terms of Use",
-        "description_5": ".",
-        "second_description_1": "Not a member?",
-        "second_description_2": "Join us",
-        "second_description_3": ".",
-        "error_title_1": "Login Failed",
-        "error_content_1": "Check your info and internet connection!",
-        "error_title_2": "Password Reset Failed",
-        "error_content_2": "Check your info and internet connection!",
-        "success_title_2": "Password Reset Successful",
-        "success_content_2": "Password reset link has been sent to your email address."
-      },
-      "register": {
-        "title_1": "LIGHTWEIGHT",
-        "title_2": "Account Creation",
-        "button_1": "Create Account",
-        "description_1": "By creating an account, you agree to the",
-        "description_2": "Privacy Policy",
-        "description_3": "and",
-        "description_4": "Terms of Use",
-        "description_5": ".",
-        "second_description_1": "Do you have an account",
-        "second_description_2": "Log in",
-        "second_description_3": ".",
-        "error_title_1": "Account Creation Failed",
-        "error_content_1": "Check your info and internet connection!"
-      },
-      "unverified": {
-        "title_1": "LIGHTWEIGHT",
-        "title_2": "Verification",
-        "button_1": "Send Again",
-        "button_2": "Log Out",
-        "description_1": "Please verify your account for",
-        "description_2": ". Make sure you check your spam box!",
-        "contact_us_1": "Can not verify?",
-        "contact_us_2": "Contact us",
-        "error_title_1": "Send Again Failed",
-        "error_content_1": "Check your internet connection!"
+      "pages": {
+        "main": {
+          "title_1": "LIGHTWEIGHT",
+          "title_2": "Calculator",
+          "button_1": "Join Us",
+          "button_2": "Log In"
+        },
+        "login": {
+          "title_1": "LIGHTWEIGHT",
+          "title_2": "Account",
+          "button_1": "Log In",
+          "button_2": "Did you forget your password?",
+          "description_1": {
+            "word_1": "By logging in, you agree to the",
+            "word_2": "Privacy Policy",
+            "word_3": "and",
+            "word_4": "Terms of Use",
+            "word_5": "."
+          },
+          "description_2": {
+            "word_1": "Not a member?",
+            "word_2": "Join us",
+            "word_3": "."
+          },
+          "dialog_1": {
+            "title_1": "Password Reset Successful",
+            "content_1": "Please check your inbox."
+          }
+        },
+        "sign_up": {
+          "title_1": "LIGHTWEIGHT",
+          "title_2": "Account Creation",
+          "button_1": "Create Account",
+          "description_1": {
+            "word_1": "By creating an account, you agree to the",
+            "word_2": "Privacy Policy",
+            "word_3": "and",
+            "word_4": "Terms of Use",
+            "word_5": "."
+          },
+          "description_2": {
+            "word_1": "Do you have an account",
+            "word_2": "Log in",
+            "word_3": "."
+          }
+        },
+        "verification": {
+          "title_1": "LIGHTWEIGHT",
+          "title_2": "Verification",
+          "button_1": "Send Again",
+          "button_2": "Log Out",
+          "description_1": {
+            "word_1": "Please verify your account for",
+            "word_2": ". Make sure you check your spam box!"
+          }
+        }
       }
     },
     "tabs": {
@@ -78,7 +136,7 @@
       },
       "calculators": {
         "title": "Calculators",
-        "header_1": "Lightweight\nLevel",
+        "header_1": "Intensity",
         "header_2": "1RM",
         "header_3": "Barbell Load",
         "header_4": "Ideal Weight",
@@ -86,6 +144,26 @@
         "header_6": "Calorie",
         "header_7": "Sleep",
         "tag_1": "SOON",
+        "working_set_calculator": {
+          "title_1": "Working Set Calculator",
+          "dialog_1": {
+            "content_1": "Working Set Calculator calculate the combination of sets for you at any difficulty you want."
+          },
+          "subtitle_1": "Set",
+          "subtitle_2": "Total Working Volume",
+          "subtitle_3": "Recomended Rest Period"
+        },
+        "sleep_calculator": {
+          "title_1": "Sleep Calculator",
+          "subtitle_1": "Wake-up Time",
+          "subtitle_2": "Use 24-Hour Format",
+          "subtitle_3": "Include Time to Fall Asleep",
+          "content_1": "hrs",
+          "content_2": "min",
+          "dialog_1": {
+            "content_1": "The Sleep Calculator recommends when to go to sleep in order to wake up feeling refreshed. It suggests sleeping time based on the stages of sleep and helps avoid waking up in the middle of the sleep cycle. Keep in mind: on average, it takes about 15 minutes to fall asleep."
+          }
+        },
         "bmi_calculator": {
           "title": "Ideal Weight Calculator",
           "dialog_1": {
@@ -250,14 +328,14 @@
             "title": "Rest is Over",
             "body_1": "Warm-up set ",
             "body_2": " is waiting for you ",
-            "body_3": " kg and ",
+            "body_3": " kgs and ",
             "body_4": " rep"
           },
           "notification_2": {
             "title": "Rest is Over",
             "body_1": "Attempt set ",
             "body_2": " is waiting for you ",
-            "body_3": "kg"
+            "body_3": "kgs"
           }
         },
         "result": {
@@ -493,16 +571,12 @@
         "description_5": "You are the king of the streets! Gym, park, it doesn't matter. When you hold onto the iron, all eyes are on you."
       },
       "contact_cause": {
-        "subject_1": "Verification",
-        "subject_2": "Maintenance",
-        "subject_3": "Update",
-        "subject_4": "Lightweight Pro",
-        "subject_5": "Lightweight Pro",
-        "body_1": "I can not verify my account because can not get verification link. Can you help me to fix this?",
-        "body_2": "I can not start the application because it is been on the maintenance screen for a long time. Can you help me to fix this?",
-        "body_3": "I can not start the application because the update screen does not go away even though I am on the current version. Can you help me to fix this?",
-        "body_4": "I have a question about Lightweight Pro. Question is that:\n",
-        "body_5": "I having an error about Lightweight Pro. Can you help me to fix this? Error code is:"
+        "subject_1": "Maintenance",
+        "subject_2": "Update",
+        "subject_3": "Lightweight Pro",
+        "body_1": "I can not start the application because it is been on the maintenance screen for a long time. Can you help me to fix this?",
+        "body_2": "I can not start the application because the update screen does not go away even though I am on the current version. Can you help me to fix this?",
+        "body_3": "I having an error about Lightweight Pro. Can you help me to fix this? Error code is:"
       },
       "purchase_error_code": {
         "message_1": "An unknown error occurred",
@@ -541,6 +615,11 @@
         "name_7": "Hip",
         "name_8": "Leg",
         "name_9": "Kalf"
+      },
+      "set_difficulty": {
+        "name_1": "Easy",
+        "name_2": "Normal",
+        "name_3": "Hard"
       }
     },
     "init": {
@@ -555,7 +634,8 @@
           "content_2": "Barbell load calculator",
           "content_3": "Measurement and fat ratio tracking",
           "content_4": "Advanced graphics",
-          "content_5": "Continuously evolving PRO features!",
+          "content_5": "Sleep calculator",
+          "content_6": "Continuously evolving PRO features!",
           "button_1": "Lightweight Pro - Annual",
           "contact_us_1": "Do you have question?",
           "contact_us_2": "Contact us"
@@ -657,68 +737,81 @@
         },
         "height_input": {
           "label_text": "Height",
-          "error_text": "Invalid height: must be between 140 and 240 cms"
+          "error_text": "Invalid height: must be between 140 and 240 cms",
+          "suffix_text": "cms"
         },
         "body_weight_input": {
           "label_text": "Body Weight",
-          "error_text": "Invalid body weight: must be between 30 and 250 kgs"
+          "error_text": "Invalid body weight: must be between 30 and 250 kgs",
+          "suffix_text": "kgs"
         },
         "neck_input": {
           "label_text": "Neck",
-          "error_text": "Invalid neck: must be between 15 and 70 cms"
+          "error_text": "Invalid neck: must be between 15 and 70 cms",
+          "suffix_text": "cms"
         },
         "shoulder_input": {
           "label_text": "Shoulder",
-          "error_text": "Invalid shoulder: must be between 50 and 200 cms"
+          "error_text": "Invalid shoulder: must be between 50 and 200 cms",
+          "suffix_text": "cms"
         },
         "chest_input": {
           "label_text": "Chest",
-          "error_text": "Invalid chest: must be between 50 and 200 cms"
+          "error_text": "Invalid chest: must be between 50 and 200 cms",
+          "suffix_text": "cms"
         },
         "arm_input": {
           "label_text": "Arm",
-          "error_text": "Invalid arm: must be between 15 and 70 cms"
+          "error_text": "Invalid arm: must be between 15 and 70 cms",
+          "suffix_text": "cms"
         },
         "waist_input": {
           "label_text": "Waist",
-          "error_text": "Invalid waist: must be between 40 and 200 cms"
+          "error_text": "Invalid waist: must be between 40 and 200 cms",
+          "suffix_text": "cms"
         },
         "hip_input": {
           "label_text": "Hip",
-          "error_text": "Invalid hip: must be between 50 and 200 cms"
+          "error_text": "Invalid hip: must be between 50 and 200 cms",
+          "suffix_text": "cms"
         },
         "leg_input": {
           "label_text": "Leg",
-          "error_text": "Invalid leg: must be between 20 and 150 cms"
+          "error_text": "Invalid leg: must be between 20 and 150 cms",
+          "suffix_text": "cms"
         },
         "kalf_input": {
           "label_text": "Kalf",
-          "error_text": "Invalid kalf: must be between 15 and 70 cms"
+          "error_text": "Invalid kalf: must be between 15 and 70 cms",
+          "suffix_text": "cms"
         },
         "body_fat_input": {
           "label_text": "Body Fat",
-          "error_text": "Invalid body fat: must be between 2 and 60"
+          "error_text": "Invalid body fat: must be between 2 and 60",
+          "suffix_text": "%"
         },
         "rep_input": {
-          "label_text": "Repetition"
+          "label_text": "Reps"
         },
         "weight_input": {
           "label_text_1": "Weight",
           "error_text_1": "Invalid weight: must be between 0 and 500",
           "label_text_2": "Extra Weight",
-          "error_text_2": "Invalid extra weight: must be between 0 and 500"
+          "error_text_2": "Invalid extra weight: must be between 0 and 500",
+          "suffix_text": "kgs"
         },
         "rep2_input": {
-          "label_text": "Repetition",
-          "error_text": "Invalid repetition: must be between 1 and 10",
-          "suffix_text": "rep"
+          "label_text": "Reps",
+          "error_text": "Invalid reps: must be between 1 and 10",
+          "suffix_text": "reps"
         },
         "validation_link_input": {
           "label_text": "Video Link (Enter to leaderboard)"
         },
         "desired_max_input": {
           "label_text": "Desired Max",
-          "error_text": "Invalid desired max: must be between 0 and 500"
+          "error_text": "Invalid desired max: must be between 0 and 500",
+          "suffix_text": "kgs"
         },
         "exercise_input": {
           "label_text": "Choose Exercise",
@@ -735,6 +828,20 @@
         "gender2_input": {
           "label_text": "Choose Gender",
           "error_text": "You must choose gender"
+        },
+        "one_rep_max_input": {
+          "label_text": "One Rep Max",
+          "error_text": "Invalid one rep max: must be between 0 and 500",
+          "suffix_text": "kgs"
+        },
+        "sets_input": {
+          "label_text": "Sets",
+          "error_text": "Invalid sets: must be between 1 and 5",
+          "suffix_text": "sets"
+        },
+        "set_difficulty_input": {
+          "label_text": "Choose Set Difficulty",
+          "error_text": "You must choose set difficulty"
         }
       },
       "smart_inputs": {

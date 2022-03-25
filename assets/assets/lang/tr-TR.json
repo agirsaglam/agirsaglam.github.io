@@ -9,59 +9,117 @@
     "variable_3": "gün önce"
   },
   "features": {
+    "moderator": {
+      "moderator_panel": {
+        "title_1": "Moderatör Paneli",
+        "button_1": "Kullanıcı Düzenleme",
+        "button_2": "Bekleyen Kaldırışlar",
+        "button_3": "Havuzu Sıfırla",
+        "button_4": "Dene"
+      },
+      "user_editing": {
+        "title_1": "Kullanıcı Düzenleme",
+        "button_1": "Kullanıcıyı Sorgula",
+        "button_2": "Kullanıcıyı Düzenle"
+      },
+      "waiting_lifts": {
+        "title_1": "Bekleyen Kaldırışlar",
+        "content_1": "Kaldırış bulunamadı"
+      }
+    },
     "authentication": {
-      "main": {
-        "title_1": "AĞIRSAĞLAM",
-        "title_2": "Hesaplayıcı",
-        "button_1": "Bize Katıl",
-        "button_2": "Giriş Yap"
+      "extensions": {
+        "authentication_error_extension": {
+          "error_1": {
+            "title": "Bilinmeyen Bir Hata Oluştu",
+            "message": "Lütfen daha sonra tekrar dene ya da yardım almak için destek ekibimizle iletişime geç!"
+          },
+          "error_2": {
+            "title": "Kullanıcı Engellenmiş",
+            "message": "Bu kullanıcı engellenmiş. Yardım almak için lütfen destek ekibimizle iletişime geç!"
+          },
+          "error_3": {
+            "title": "Kullanıcı Bulunamadı",
+            "message": "Bu e-posta adresiyle bir kullanıcı bulunamadı. Lütfen önce hesap oluştur!"
+          },
+          "error_4": {
+            "title": "Şifre Yanlış",
+            "message": "Şifre ve e-posta adresleri eşleşmiyor. Şifrenin doğru olduğuna emin ol!"
+          },
+          "error_5": {
+            "title": "E-posta Adresi Zaten Kullanımda",
+            "message": "Bu e-posta adresi zaten bir hesap tanımlı. Lütfen başka bir e-posta adresi kullan ya da yardım almak için destek ekibimizle iletişime geç!"
+          },
+          "error_6": {
+            "title": "Geçersiz E-Posta Adresi",
+            "message": "E-posta adresi geçersiz ya da kötü formatta. Lüften e-posta adresini doğru girdiğinden emin ol!"
+          },
+          "error_7": {
+            "title": "İşlem Reddedildi",
+            "message": "İşlem reddedildi. Yardım almak için lütfen destek ekibimizle iletişime geç!"
+          },
+          "error_8": {
+            "title": "Şifre Yanlış",
+            "message": "Şifre ve e-posta adresleri eşleşmiyor. Şifrenin doğru olduğuna emin ol!"
+          }
+        }
       },
-      "login": {
-        "title_1": "AĞIRSAĞLAM",
-        "title_2": "Hesabın",
-        "button_1": "Giriş Yap",
-        "button_2": "Şifreni mi unuttun?",
-        "description_1": "Giriş yaparak, Ağırsağlam",
-        "description_2": "Gizlilik Politikası",
-        "description_3": "ve",
-        "description_4": "Kullanım Şartları",
-        "description_5": "'nı kabul etmiş sayılırsın.",
-        "second_description_1": "Üye değil misin?",
-        "second_description_2": "Bize katıl",
-        "second_description_3": ".",
-        "error_title_1": "Giriş Yapma Başarısız",
-        "error_content_1": "Bilgilerini ve internet bağlantını kontrol et!",
-        "error_title_2": "Şifre Sıfırlama Başarısız",
-        "error_content_2": "Bilgilerini ve internet bağlantını kontrol et!",
-        "success_title_2": "Şifre Sıfırlama Başarılı",
-        "success_content_2": "Şifre sıfırlama bağlantısı e-posta adresinde gönderildi."
-      },
-      "register": {
-        "title_1": "AĞIRSAĞLAM",
-        "title_2": "Hesabı Oluştur",
-        "button_1": "Hesap Oluştur",
-        "description_1": "Bir hesap oluşturarak, Ağırsağlam",
-        "description_2": "Gizlilik Politikası",
-        "description_3": "ve",
-        "description_4": "Kullanım Şartları",
-        "description_5": "'nı kabul etmiş sayılırsın.",
-        "second_description_1": "Hesabın mı var?",
-        "second_description_2": "Giriş yap",
-        "second_description_3": ".",
-        "error_title_1": "Hesap Oluşturma Başarısız",
-        "error_content_1": "Bilgilerini ve internet bağlantını kontrol et!"
-      },
-      "unverified": {
-        "title_1": "AĞIRSAĞLAM",
-        "title_2": "Hesabını Onayla",
-        "button_1": "Tekrar Gönder",
-        "button_2": "Oturumu Kapat",
-        "description_1": "",
-        "description_2": "e-posta adresiyle giriş yapmak için hesabını onaylamalısın. Spam kutunu kontrol etmeyi unutma!",
-        "contact_us_1": "Onaylanamıyor mu?",
-        "contact_us_2": "Bize ulaş",
-        "error_title_1": "Tekrar Gönderme Başarısız",
-        "error_content_1": "İnternet bağlantını kontrol et!"
+      "pages": {
+        "main": {
+          "title_1": "AĞIRSAĞLAM",
+          "title_2": "Hesaplayıcı",
+          "button_1": "Bize Katıl",
+          "button_2": "Giriş Yap"
+        },
+        "login": {
+          "title_1": "AĞIRSAĞLAM",
+          "title_2": "Hesabın",
+          "button_1": "Giriş Yap",
+          "button_2": "Şifreni mi unuttun?",
+          "description_1": {
+            "word_1": "Giriş yaparak, Ağırsağlam",
+            "word_2": "Gizlilik Politikası",
+            "word_3": "ve",
+            "word_4": "Kullanım Şartları",
+            "word_5": "'nı kabul etmiş sayılırsın."
+          },
+          "description_2": {
+            "word_1": "Üye değil misin?",
+            "word_2": "Bize katıl",
+            "word_3": "."
+          },
+          "dialog_1": {
+            "title_1": "Şifre Sıfırlama Başarılı",
+            "content_1": "Lütfen posta kutunu kontrol et."
+          }
+        },
+        "sign_up": {
+          "title_1": "AĞIRSAĞLAM",
+          "title_2": "Hesabı Oluştur",
+          "button_1": "Hesap Oluştur",
+          "description_1": {
+            "word_1": "Hesap oluşturarak, Ağırsağlam",
+            "word_2": "Gizlilik Politikası",
+            "word_3": "ve",
+            "word_4": "Kullanım Şartları",
+            "word_5": "'nı kabul etmiş sayılırsın."
+          },
+          "description_2": {
+            "word_1": "Hesabın var mı?",
+            "word_2": "Giriş yap",
+            "word_3": "."
+          }
+        },
+        "verification": {
+          "title_1": "AĞIRSAĞLAM",
+          "title_2": "Hesabını Onayla",
+          "button_1": "Tekrar Gönder",
+          "button_2": "Oturumu Kapat",
+          "description_1": {
+            "word_1": "",
+            "word_2": "e-posta adresiyle giriş yapmak için hesabını onaylamalısın. Spam kutunu kontrol etmeyi unutma!"
+          }
+        }
       }
     },
     "tabs": {
@@ -78,7 +136,7 @@
       },
       "calculators": {
         "title": "Hesaplayıcılar",
-        "header_1": "Ağırsağlam\nSeviye",
+        "header_1": "Çalışma Seti",
         "header_2": "1RM",
         "header_3": "Plaka Yükleme",
         "header_4": "İdeal Kilo",
@@ -86,6 +144,26 @@
         "header_6": "Kalori",
         "header_7": "Uyku",
         "tag_1": "YAKINDA",
+        "working_set_calculator": {
+          "title_1": "Çalışma Seti Hesaplayıcı",
+          "dialog_1": {
+            "content_1": "Çalışma Seti Hesaplayıcı, istediğin zorlukta set kombinasyonunu senin için hesaplar."
+          },
+          "subtitle_1": "Set",
+          "subtitle_2": "Toplam Çalışma Hacmi",
+          "subtitle_3": "Tavsiye Edilen Dinlenme Süresi"
+        },
+        "sleep_calculator": {
+          "title_1": "Uyku Hesaplayıcı",
+          "subtitle_1": "Uyanılacak Saat",
+          "subtitle_2": "24 Saat Biçimi Kullan",
+          "subtitle_3": "Uykuya Dalma Süresini Dahil Et",
+          "content_1": "sa",
+          "content_2": "dk",
+          "dialog_1": {
+            "content_1": "Uyku Hesaplayıcı, yenilenmiş hissederek uyanmak için ne zaman uyuman gerektiğini önerir. Uykunun evrelerine göre uyku zamanı önerir ve uyku döngüsünün ortasında uyanmaktan kaçınmaya yardımcı olur. Unutma: ortalama olarak uykuya dalmak yaklaşık 15 dakika sürer."
+          }
+        },
         "bmi_calculator": {
           "title": "İdeal Kilo Hesaplayıcı",
           "dialog_1": {
@@ -493,16 +571,12 @@
         "description_5": "Sokakların kralısın! Spor salonu, park fark etmez. Demire tutunduğunda tüm gözler sende."
       },
       "contact_cause": {
-        "subject_1": "Onaylama",
-        "subject_2": "Bakım",
-        "subject_3": "Güncelleme",
-        "subject_4": "Ağırsağlam Pro",
-        "subject_5": "Ağırsağlam Pro",
-        "body_1": "Onay linkini alamadığım için hesabımı onaylayamıyorum. Bana bu konuda yardımcı olabilir misiniz?",
-        "body_2": "Uzun süredir bakım ekranında olduğu için uygulamaya giriş yapamıyorum. Bana bu konuda yardımcı olabilir misiniz?",
-        "body_3": "Güncel sürümde olmama rağmen güncelleme ekranı gitmediği için uygulamaya giriş yapamıyorum. Bana bu konuda yardımcı olabilir misiniz?",
-        "body_4": "Ağırsağlam Pro ile ilgili bir sorum var. Sorum şudur:\n",
-        "body_5": "Ağırsağlam Pro ile ilgili bir hata yaşıyorum. Bana bu konuda yardımcı olabilir misiniz? Hata kodu:"
+        "subject_1": "Bakım",
+        "subject_2": "Güncelleme",
+        "subject_3": "Ağırsağlam Pro",
+        "body_1": "Uzun süredir bakım ekranında olduğu için uygulamaya giriş yapamıyorum. Bana bu konuda yardımcı olabilir misiniz?",
+        "body_2": "Güncel sürümde olmama rağmen güncelleme ekranı gitmediği için uygulamaya giriş yapamıyorum. Bana bu konuda yardımcı olabilir misiniz?",
+        "body_3": "Ağırsağlam Pro ile ilgili bir hata yaşıyorum. Bana bu konuda yardımcı olabilir misiniz? Hata kodu:"
       },
       "purchase_error_code": {
         "message_1": "Bilinmeyen bir hata oluştu",
@@ -541,6 +615,11 @@
         "name_7": "Kalça",
         "name_8": "Bacak",
         "name_9": "Kalf"
+      },
+      "set_difficulty": {
+        "name_1": "Kolay",
+        "name_2": "Normal",
+        "name_3": "Zor"
       }
     },
     "init": {
@@ -555,7 +634,8 @@
           "content_2": "Plaka yükleme hesaplayıcı",
           "content_3": "Ölçü ve yağ oranı takibi",
           "content_4": "Gelişmiş grafikler",
-          "content_5": "Sürekli gelişecek PRO özellikler!",
+          "content_5": "Uyku hesaplayıcı",
+          "content_6": "Sürekli gelişecek PRO özellikler!",
           "button_1": "Ağırsağlam Pro - Yıllık",
           "contact_us_1": "Sorun mu var?",
           "contact_us_2": "Bize ulaş"
@@ -657,47 +737,58 @@
         },
         "height_input": {
           "label_text": "Boy",
-          "error_text": "Geçersiz boy: en az 140, en fazla 240 cm olmalı"
+          "error_text": "Geçersiz boy: en az 140, en fazla 240 cm olmalı",
+          "suffix_text": "cm"
         },
         "body_weight_input": {
           "label_text": "Vücut Ağırlığı",
-          "error_text": "Geçersiz vücut ağırlığı: en az 30, en fazla 250 kg olmalı"
+          "error_text": "Geçersiz vücut ağırlığı: en az 30, en fazla 250 kg olmalı",
+          "suffix_text": "kg"
         },
         "neck_input": {
           "label_text": "Boyun",
-          "error_text": "Geçersiz boyun: en az 15, en fazla 70 cm olmalı"
+          "error_text": "Geçersiz boyun: en az 15, en fazla 70 cm olmalı",
+          "suffix_text": "cm"
         },
         "shoulder_input": {
           "label_text": "Omuz",
-          "error_text": "Geçersiz omuz: en az 50, en fazla 200 cm olmalı"
+          "error_text": "Geçersiz omuz: en az 50, en fazla 200 cm olmalı",
+          "suffix_text": "cm"
         },
         "chest_input": {
           "label_text": "Göğüs",
-          "error_text": "Geçersiz göğüs: en az 50, en fazla 200 cm olmalı"
+          "error_text": "Geçersiz göğüs: en az 50, en fazla 200 cm olmalı",
+          "suffix_text": "cm"
         },
         "arm_input": {
           "label_text": "Kol",
-          "error_text": "Geçersiz kol: en az 15, en fazla 70 cm olmalı"
+          "error_text": "Geçersiz kol: en az 15, en fazla 70 cm olmalı",
+          "suffix_text": "cm"
         },
         "waist_input": {
           "label_text": "Bel",
-          "error_text": "Geçersiz bel: en az 40, en fazla 200 cm olmalı"
+          "error_text": "Geçersiz bel: en az 40, en fazla 200 cm olmalı",
+          "suffix_text": "cm"
         },
         "hip_input": {
           "label_text": "Kalça",
-          "error_text": "Geçersiz kalça: en az 50, en fazla 200 cm olmalı"
+          "error_text": "Geçersiz kalça: en az 50, en fazla 200 cm olmalı",
+          "suffix_text": "cm"
         },
         "leg_input": {
           "label_text": "Bacak",
-          "error_text": "Geçersiz bacak: en az 20, en fazla 150 cm olmalı"
+          "error_text": "Geçersiz bacak: en az 20, en fazla 150 cm olmalı",
+          "suffix_text": "cm"
         },
         "kalf_input": {
           "label_text": "Kalf",
-          "error_text": "Geçersiz kalf: en az 15, en fazla 70 cm olmalı"
+          "error_text": "Geçersiz kalf: en az 15, en fazla 70 cm olmalı",
+          "suffix_text": "cm"
         },
         "body_fat_input": {
           "label_text": "Yağ Oranı",
-          "error_text": "Geçersiz yağ oranı: en az 2, en fazla 60 olmalı"
+          "error_text": "Geçersiz yağ oranı: en az 2, en fazla 60 olmalı",
+          "suffix_text": "%"
         },
         "rep_input": {
           "label_text": "Tekrar"
@@ -706,11 +797,12 @@
           "label_text_1": "Ağırlık",
           "error_text_1": "Geçersiz ağırlık: en az 0, en fazla 500 kg olmalı",
           "label_text_2": "Ek Ağırlık",
-          "error_text_2": "Geçersiz ek ağırlık: en az 0, en fazla 500 kg olmalı"
+          "error_text_2": "Geçersiz ek ağırlık: en az 0, en fazla 500 kg olmalı",
+          "suffix_text": "kg"
         },
         "rep2_input": {
           "label_text": "Tekrar",
-          "error_text": "Geçersiz tekrar: en az 1, en falz 10 olmalı",
+          "error_text": "Geçersiz tekrar: en az 1, en falza 10 olmalı",
           "suffix_text": "tekrar"
         },
         "validation_link_input": {
@@ -718,7 +810,8 @@
         },
         "desired_max_input": {
           "label_text": "İstenen Maksimum",
-          "error_text": "Geçersiz istenen maksimum: en az 0, en fazla 500kg olmalı"
+          "error_text": "Geçersiz istenen maksimum: en az 0, en fazla 500kg olmalı",
+          "suffix_text": "kg"
         },
         "exercise_input": {
           "label_text": "Egzersiz Seç",
@@ -735,6 +828,20 @@
         "gender2_input": {
           "label_text": "Cinsiyet Seç",
           "error_text": "Cinsiyet seçmelisin"
+        },
+        "one_rep_max_input": {
+          "label_text": "Tek Tekrar Maksimum",
+          "error_text": "Geçersiz tek tekrar maksimum: en az 0, en fazla 500kg olmalı",
+          "suffix_text": "kg"
+        },
+        "sets_input": {
+          "label_text": "Set",
+          "error_text": "Geçersiz set: en az 1, en falza 5 olmalı",
+          "suffix_text": "set"
+        },
+        "set_difficulty_input": {
+          "label_text": "Set Zoruluğu Seç",
+          "error_text": "Set zorluğu seçmelisin"
         }
       },
       "smart_inputs": {
